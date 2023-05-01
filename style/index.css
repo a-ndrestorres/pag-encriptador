@@ -1,0 +1,203 @@
+body {
+  position: relative;
+  width: 1440px;
+  height: 969px;
+  background: #f3f5fc;
+}
+/*configuracion de logo*/
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+.vector {
+  position: absolute;
+  left: 36.67%;
+  right: 37.43%;
+  top: 0%;
+  bottom: 0%;
+  background: #0a3871;
+}
+/*configuracion del texto principal*/
+header h1 {
+  margin: 0 0 0 50px;
+  font-size: 100px;
+  color: darkblue;
+}
+.principal {
+  position: absolute;
+  width: 577px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+}
+.input-text {
+  background: transparent;
+  border: transparent;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  height: 48px;
+  width: 577px;
+  left: 240px;
+  top: 168px;
+}
+
+.frame-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 229px;
+  height: 18px;
+  left: 240px;
+  top: 851px;
+}
+
+.bi {
+  width: 16px;
+  height: 16px;
+  fill: currentColor;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.texto-suguerencia {
+  width: 205px;
+  height: 18px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+
+  opacity: 0.8;
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+/*configuracion de los botones*/
+.botones {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  
+  position: absolute;
+  width: 680px;
+  height: 67px;
+  left: 240px;
+  top: 885px;
+}
+
+.boton {
+  height: 67px;
+  width: 328px;
+  left: 352px;
+  top: 0px;
+  color: darkblue;
+  border: #0a3871 solid 3px;
+  border-radius: 24px;
+  padding: 24px;
+  background: #d8dfe8;
+}
+
+.boton:first-child {
+  background: darkblue;
+  color: white;
+}
+
+/* configurancdo el rectangulo*/
+.rectangulo {
+  position: absolute;
+  width: 400px;
+  height: 944px;
+  left: 1000px;
+  top: 40px;
+  background: #ffffff;
+  padding-left: 10px;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+.muñeco {
+  position: absolute;
+  width: 336px;
+  height: 304px;
+  top: 283px;
+
+}
+
+.contenido {
+  margin: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  position: absolute;
+  width: 336px;
+  height: 122px;
+  top: 619px;
+}
+
+.info-encriptado {
+  width: 336px;
+  height: 58px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 120%;
+
+  text-align: center;
+
+  color: #343a40;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.ingresar-info {
+  width: 336px;
+  height: 48px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+
+  text-align: center;
+
+  color: #495057;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
