@@ -13,7 +13,7 @@
     </header>
     <main>
       <section class="principal">
-        <input id="texto-encriptado" class="input-text" >Ingrese el texto aqui</input>
+        <textarea name="textoingresar" id="textoingresar" class="textoingresar" placeholder="Ingresar texto aqui"></textarea>
       </section>
       <section >
         <div class="frame-1">
@@ -22,20 +22,27 @@
           Solo letras minúsculas y sin acentos</p>
         </div>
         <div class="botones">
-          <button class="boton">Encriptar</button>
-          <button class="boton">Desencriptar</button>
+          <button class="btn-encriptar" type="button" onclick= "encriptar()">Encriptar</button>
+          <button class="btn-desencriptar" type="button" onclick= "desencriptar()">Desencriptar</button>
         </div>
       </section>
 
       <section class="rectangulo">
         <div class="muñeco">
-          <img src="/img/muñeco.png" alt="muñeco" />
+          <img src="/img/muñeco.png" alt="muñeco"  id="imgMuñeco"/>
         </div>
         <div class="contenido">
-          <p class="info-encriptado">Ningún mensaje fue encontrado</p>
-          <p class="ingresar-info">Ingresa el texto que desees encriptar o desencriptar.</p>
+          <p id="tituloMensaje" class="info-encriptado">Ningún mensaje fue encontrado</p>
+          <p id="parrafo" class="ingresar-info">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <div>
+          <textarea name="texto-a-ingresar" id="texto-encriptado" cols="30" rows="10"></textarea>
+        </div>
+        <div class="boton-copiar">
+          <button></button>
         </div>
       </section>
     </main>
   </body>
+  <script src="script.js"></script>
 </html>
